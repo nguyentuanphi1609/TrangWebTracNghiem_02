@@ -1,0 +1,18 @@
+﻿body {
+   
+}
+
+.ghichu:hover {
+    background-color: #808080;
+    animation: phongto 2s forwards 0s infinite alternate;
+}
+
+@-webkit-keyframes phongto {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
